@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_cars_create_cars_creates",
+  "info": {
+    "displayName": "CarsCreate",
+    "icon": "truck-pickup",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "carsCreationText": {
+      "type": "string",
+      "required": true,
+      "default": "Дата основания"
+    },
+    "carsCreationDate": {
+      "type": "date",
+      "required": true
+    }
+  }
+}

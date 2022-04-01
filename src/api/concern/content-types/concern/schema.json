@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "concerns",
+  "info": {
+    "singularName": "concern",
+    "pluralName": "concerns",
+    "displayName": "Concern",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "cars": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::car.car",
+      "mappedBy": "concern"
+    }
+  }
+}
